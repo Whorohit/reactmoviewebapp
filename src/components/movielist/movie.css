@@ -1,0 +1,26 @@
+
+.imageblock img {
+    position: relative;
+   
+}
+.rowline:hover{
+      
+}
+
+.imageblock img:hover {
+    filter: drop-shadow(0 0 0.75rem aliceblue);
+    
+}
+
+.titlemovie{
+    position: relative;
+    top: -1rem;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+@media (max-width:600px) {
+    img{
+        width: 50%;
+    }
+    
+}

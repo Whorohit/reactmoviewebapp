@@ -1,0 +1,74 @@
+
+/* .posterImage img{
+  height: 50rem;
+  
+} */
+.posterImage{
+ 
+}
+.ccarousel{
+   /* position: relative;
+   top: 0;
+   z-index: -1;
+    */
+}
+
+.description {
+    text-align: center;
+ font-family: 'Ubuntu', sans-serif;
+font-size: 3rem;
+flex-direction: column;
+align-items: center;
+display: flex;
+position: absolute;
+top: 45vw;
+opacity: .8;
+z-index: 5;
+width: 98vw;}
+.movie_title{
+font-size: 3rem;
+font-weight:bold;
+text-align: center;
+
+    
+}
+
+@media (max-width:1200px) {
+    .description{
+        top:40vw ;
+        /* left:16vw; */
+    }}
+
+@media (max-width:900px) {
+    .description{
+        top:35vw ;
+        /* left: 12vw; */
+        font-size:50%;
+    }
+    .description h3 h4{
+        font-size: 70%;
+    }
+    
+}
+@media (max-width:680px) {
+    .description{
+        top:30vw ;
+        /* left: 12vw; */
+    }
+    
+}
+@media (max-width:500px) {
+    .description{
+        top:28vw ;
+        /* left: 12vw; */
+    }
+    
+}
+.movie_overview{
+    font-size: 1rem;
+    font-style: italic;
+}
+.description_extra{
+    font: 1.5rem;
+    width: 30rem;
+}
